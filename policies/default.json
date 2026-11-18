@@ -1,0 +1,51 @@
+{
+ "allowed_programs": [
+  "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+  "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+  "11111111111111111111111111111111",
+  "ComputeBudget111111111111111111111111111111",
+  "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+  "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+  "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+  "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr"
+ ],
+ "deny_instructions": {
+  "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P": [
+   "create",
+   "create_v2",
+   "set_creator",
+   "set_params",
+   "admin_cto",
+   "admin_set_idl_authority",
+   "admin_update_token_incentives",
+   "set_metaplex_creator",
+   "migrate",
+   "migrate_v2",
+   "update_global_authority",
+   "set_quote_control_admin",
+   "add_quote_mint",
+   "remove_quote_mint",
+   "set_max_curve_depth",
+   "distribute_fee_to_holders",
+   "multi_hop_curve_swap"
+  ],
+  "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA": [
+   "create_pool",
+   "create_config",
+   "update_admin",
+   "update_fee_config",
+   "disable",
+   "withdraw",
+   "deposit"
+  ]
+ },
+ "allow_unknown_pump_instructions": false,
+ "mint_allowlist": [],
+ "max_quote_in_per_tx": 1000000000,
+ "max_slack_bps": 500,
+ "max_jito_tip_lamports": 1000000,
+ "max_cu_price_microlamports": 2000000,
+ "max_fee_payer_loss_lamports": 1100000000,
+ "require_simulation_success": true,
+ "max_system_transfers_to_non_tip": 0
+}
